@@ -1,10 +1,24 @@
-.parentContainer {
+.flexContainerRow {
     display:flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color:lightblue;
     padding:15px;
 }
-.flexChild {
+.flexChildRow {
     background-color: red;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+}
+.flexContainerColumn {
+    display:flex;
+    flex-direction: column;
+    background-color:red;
+    padding:15px;
+}
+.flexChildColumn {
+    background-color: lightblue;
     padding: 10px;
     margin: 10px;
     height: 200px;
